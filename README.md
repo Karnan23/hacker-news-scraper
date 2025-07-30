@@ -2,7 +2,7 @@
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
-![Last Commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/YOUR_REPO_NAME)
+![Last Commit](https://img.shields.io/github/last-commit/Karnan23/hacker-news-scraper)
 
 A Python-based web scraper to extract and sort top stories from [Hacker News](https://news.ycombinator.com) using `requests` and `BeautifulSoup`.
 
