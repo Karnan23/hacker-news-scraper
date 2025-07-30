@@ -22,7 +22,7 @@ A Python-based web scraper to extract and sort top stories from [Hacker News](ht
 ```
 hacker_news_scraper/
 │
-├── scraper.py          # Main script to run the scraper
+├── main.py          # Main script to run the scraper
 └── README.md           # You're here!
 ```
 
