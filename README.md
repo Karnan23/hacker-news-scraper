@@ -22,9 +22,27 @@ A Python-based web scraper to extract and sort top stories from [Hacker News](ht
 ```
 hacker_news_scraper/
 │
-├── main.py          # Main script to run the scraper
-└── README.md           # You're here!
+├── main.py           # Main script to run the scraper
+├── requirements.txt  # Python dependencies
+└── README.md         # You're here!
 ```
+---
+
+## Requirements
+
+To install all dependencies at once, run:
+
+```bash
+pip install -r requirements.txt
+```
+
+### requirements.txt
+
+```
+requests
+beautifulsoup4
+```
+
 
 ---
 
@@ -60,7 +78,7 @@ pip install requests beautifulsoup4
 ### Run the script
 
 ```bash
-python scraper.py
+python main.py
 ```
 
 Then input the number of pages to scrape when prompted.
