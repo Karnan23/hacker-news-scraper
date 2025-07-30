@@ -1,4 +1,4 @@
-# 🔎 Hacker News Scraper
+# Hacker News Scraper
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
@@ -8,7 +8,7 @@ A Python-based web scraper to extract and sort top stories from [Hacker News](ht
 
 ---
 
-## 🚀 Features
+## Features
 
 - Scrapes multiple pages of Hacker News posts.
 - Extracts story titles, links, and vote counts.
@@ -17,7 +17,7 @@ A Python-based web scraper to extract and sort top stories from [Hacker News](ht
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 hacker_news_scraper/
@@ -28,7 +28,7 @@ hacker_news_scraper/
 
 ---
 
-## 🧠 Tech Stack
+## Tech Stack
 
 - Python 3.x
 - `requests` – for making HTTP requests.
@@ -36,7 +36,7 @@ hacker_news_scraper/
 
 ---
 
-## 📌 How It Works
+## How It Works
 
 1. Takes user input for how many pages to scrape.
 2. Requests and parses each page of Hacker News.
@@ -46,9 +46,9 @@ hacker_news_scraper/
 
 ---
 
-## 🛠️ Usage
+## Usage
 
-### ✅ Prerequisites
+### Prerequisites
 
 - Python 3 installed
 - Install required libraries:
@@ -57,7 +57,7 @@ hacker_news_scraper/
 pip install requests beautifulsoup4
 ```
 
-### ▶️ Run the script
+### Run the script
 
 ```bash
 python scraper.py
@@ -67,7 +67,7 @@ Then input the number of pages to scrape when prompted.
 
 ---
 
-## 📊 Sample Output
+## Sample Output
 
 ```
 Enter the number of pages to scrape: 1
@@ -82,26 +82,26 @@ Hacker_news (page : 1) :
 
 ---
 
-## 📚 Code Breakdown
+## Code Breakdown
 
-### 🔁 `get_hacker_news()`
+### `get_hacker_news()`
 Generates HTTP responses for each Hacker News page.
 
-### 🧹 `get_needed_content(res)`
+### `get_needed_content(res)`
 Parses and extracts title, link, and vote elements from a page response.
 
-### 📊 `custom_hn(links, votes)`
+### `custom_hn(links, votes)`
 Converts extracted elements into a list of dictionaries containing title, link, and vote count.
 
-### 🔽 `sort_by_votes(custom_hn_list)`
+### `sort_by_votes(custom_hn_list)`
 Sorts the news items by their vote count in descending order.
 
-### 🧪 `test_outputs(votes, links)`
+### `test_outputs(votes, links)`
 [Optional] Debug function to print out HTML of raw elements.
 
 ---
 
-## 🧠 Why This Project?
+## Why This Project?
 
 - Great for learning web scraping and Python data manipulation.
 - Practical introduction to HTML parsing with `BeautifulSoup`.
@@ -109,13 +109,13 @@ Sorts the news items by their vote count in descending order.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Karnan G (Karna)**  
 _Aspiring Python Developer | AI Enthusiast | Real-World Coder_
 
 ---
 
-## 📜 License
+## License
 
 This project is open-source and free to use under the [MIT License](https://opensource.org/licenses/MIT).
